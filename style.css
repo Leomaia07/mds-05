@@ -25,3 +25,19 @@ h1 {
         scale: 1;
     }
 }
+*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+img{
+    width: 20%;
+    border-radius: 1rem;
+}
