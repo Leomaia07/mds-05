@@ -1,0 +1,27 @@
+/*body{
+
+    height: 200px;
+    background-image: linear-gradient(to right, rgb(135, 31, 31) , rgb(52, 52, 154));
+    color: aliceblue;
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10rem;
+    text-align: center;
+    align-items: center;
+    animation-name: caixa;
+    animation-duration: 2s;
+}
+
+@keyframes caixa {
+    0% {
+        opacity: 0;
+        scale: 0.5;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
