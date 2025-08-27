@@ -9,23 +9,29 @@
 <body>
     <h1>Formulários</h1>
     <form action="">
-        <label for="nome">Nome</label><br>
-        <input type="text" name="nome" id="nome" placeholder="Digite seu nome"><br>
-        <br>
-        <label for="">Sobrenome</label><br>
-        <input type="text" placeholder="Digite o sobrenome" name="" id="">
-        <br><br>
-        <label for="tele">Telefone</label><br>
-        <input type="tel" placeholder="Digite o telefone" name="tele" id="">
-        <br><br>
-        <label for="email">Email</label><br>
-        <input type="email" placeholder="Digite o email">
-        <br><br>
         <label for="senha">Senha</label><br>
-        <input type="password" placeholder="Digite a senha" name="senha" id="">
+        <input type="password" name="senha" id="nome" placeholder="Digite seu nome" value=""><br>
+        <br>
+        <label for="email">E-mail</label><br>
+        <input type="email" placeholder="Digite seu e-mail" name="email" id="" value="">
         <br><br>
-        <label for="data">Data</label>
-        <input type="date" name="" id="">
+        <label for="nome">Nome: </label><br>
+        <input type="text" placeholder="Digite seu nome" name="nome" id="">
+        <br><br>
+        <label for="nascimento">Nascimento</label><br>
+        <input type="date" placeholder="Digite sua idade" name="nascimento">
+        <br><br>
+        <label for="idade">Idade: </label><br>
+        <input type="number" id="idade" placeholder="Digite sua idade" name="idade" >
+        <br><br>
+
+        <label for="brasileiro">Brasileiro</label>
+        <input type="radio" name="nacionalidade" id="brasileiro">
+        <label for="estrangeiro">Estrangeiro</label>
+        <input type="radio" name="nacionalidade" id="estrangeiro" value="estrangeiro"><br>
+
+        <label for="is_admin">Administrador?</label>
+        <input type="checkbox" id="is_admin" name="is_admin" value=""><br>
     </form>
 </body>
 </html>
