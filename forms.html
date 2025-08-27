@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="forms.css">
 </head>
 <body>
-    <h1>Formulários</h1>
+    
     <form action="">
+        <h1>Formulário</h1>
         <label for="senha">Senha</label><br>
         <input type="password" name="senha" id="nome" placeholder="Digite seu nome" value=""><br>
         <br>
@@ -28,10 +29,26 @@
         <label for="brasileiro">Brasileiro</label>
         <input type="radio" name="nacionalidade" id="brasileiro">
         <label for="estrangeiro">Estrangeiro</label>
-        <input type="radio" name="nacionalidade" id="estrangeiro" value="estrangeiro"><br>
+        <input type="radio" name="nacionalidade" id="estrangeiro" value="estrangeiro"><br><br>
 
         <label for="is_admin">Administrador?</label>
-        <input type="checkbox" id="is_admin" name="is_admin" value=""><br>
+        <input type="checkbox" id="is_admin" name="is_admin" value=""><br><br>
+
+        <label for="anotacoes">Mensagem: </label><br>
+        <textarea name="anotacoes" id="anotacoes" rows="5" cols="30" 
+            placeholder="Digite sua anotação..."></textarea><br><br>
+
+        <label for="cidade">Cidade
+            <select name="cidade" id="cidade">
+                <option value="am">Manaus</option>
+                <option value="sp">São Paulo</option>
+                <option value="ex">Exterior</option>
+            </select>
+        </label>
+        <br><br>
+        <button type="submit">Enviar</button>
+        <button type="submit">Limpar</button>
+        <button type="submit" onclick="alert('Olá')">Clique Aqui</button>
     </form>
 </body>
 </html>
