@@ -6,16 +6,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=settings" />
 
     <style>
         i{
             margin: 58px;
             font-size: 4rem;
             color:rgb(49, 4, 209);
-            
             transition: 2s;
+            animation-name: color;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
         }
         i:hover{
             transform: scale(3);
@@ -25,20 +30,51 @@
             margin: 58px;
             font-size: 4rem;
             color:rgb(45, 161, 37);
-            
-          transition: 2s;
+            transition: 2s;
+            animation-name: color;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
         }
+
         .material-symbols-outlined:hover{
             transform: scale(2);
         }
+
+        /* @keyframes color{
+            0%{color:red; transform: scale(0); }
+            25%{color: black;}
+            50%{color: yellow;}
+            75%{color:green;}
+            100%{color: blue;}
+        
+        } */
+        .cor-predefinida{
+            color:mediumpurple
+        }
+    
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+            color: rgb(111, 59, 215);
+
+            
+
+            }
+
+
     </style>
 </head>
 <body>
-    <span class="material-symbols-outlined">home</span>
+    <!-- <span class="material-symbols-outlined">home</span> -->
     <i class="fa-regular fa-comment"></i>
     <i class="fa-brands fa-linkedin"></i>
     <i class="fa-brands fa-facebook"></i>
     <i class="fa-brands fa-figma"></i>
     <i class="fa-solid fa-truck-fast"></i>
+    <i class="fa-solid fa-gear"></i>
+
 </body>
 </html>

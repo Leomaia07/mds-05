@@ -2,18 +2,18 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: red;
     animation-name: color;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
-/* @keyframes color{
-    0%{color:red;}
-    25%{color: darkorchid;}
-    50%{color: pink;}
+@keyframes color{
+    /* 0%{color:} */
+    25%{color: black;}
+    50%{color: yellow;}
     75%{color:green;}
     100%{color: blue;}
     
-} */
+}
 h2{
     color: red;
 }
