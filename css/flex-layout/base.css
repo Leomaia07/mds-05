@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vh;
+    background-color: #86aedc;
+    margin: 10px;
+    padding: 10px;
+    height: 10rem;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    gap: 15px;
+    justify-content:first baseline ;
+    
+    
+    div {
+        background-color: white;
+        width: 4rem;
+        height: 3rem;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+
+}
+
+
