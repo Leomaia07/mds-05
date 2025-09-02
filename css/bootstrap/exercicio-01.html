@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+
+    <style>
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Formulário de Cadastro de Usuário</h1>
+        <form action="">
+            <div class="row">
+                <div class="col">
+                    <label for="nome" class="form-label">Nome Completo: </label><br />
+                    <input type="text" class="form-control" name="nome" id="" />
+                </div>
+
+                <div class="col">
+                    <label for="email" class="form-label">Email: </label>
+                    <input type="email" class="form-control" name="email" id="" /><br />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="senha" class="form-label">Senha: </label><br />
+                    <input type="password" class="form-control" name="senha" id="" /><br />
+                </div>
+                <div class="col">
+                    <label for="" class="form-label">Confirmação de senha: </label><br />
+                    <input type="password" class="form-control" name="senha" id="" /><br />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <label for="data" class="form-label">Data de Nascimento</label><br />
+                    <input type="date" class="form-control" name="data" id="" /><br />
+
+                    <label for="" class="form-label">Endereço</label><br />
+                    <textarea name="" class="form-control" placeholder="Endereço" id=""></textarea>
+                </div>
+            </div>
+            <br />
+            <div class="d-flex justify-content-end" >
+                <button type="reset" class="btn btn-info mb-3">Cancelar</button>
+                <button type="submit" class="btn btn-info mb-3">Cadastrar</button>
+            </div>
+
+        </form>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
