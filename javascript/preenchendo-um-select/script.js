@@ -9,6 +9,7 @@ label.style.fontWeight = 'bold';
 label.classList.add('form-label');
 label.classList.add('m-1');
 
+
 // // criar select
 
 const select = document.createElement('select');
@@ -18,6 +19,8 @@ select.className = 'form-select';
 
 const fruits = ['maçã','Banana', 'Laranja', 'Uva', 'Abacaxi'];
 
+const criarH1 = document.createElement('h1');
+criarH1.innerText('Texto H1')
 
 fruits.forEach((fruit) => {
     const option = document.createElement('option');
@@ -26,7 +29,9 @@ fruits.forEach((fruit) => {
     select.appendChild(option);
 });
 
+
 container.appendChild(label);
+label.appendChild(criarH1)
 
 container.appendChild(select);
 
